@@ -17,7 +17,8 @@ Bem-vindo ao **Pokedex App**, uma aplicação web desenvolvida com React que per
 
 ## veja um pouco da aplicação
 
-[gif](gif.gif)
+![GIF](gif.gif)
+
 
 ## Acesso Online
 
