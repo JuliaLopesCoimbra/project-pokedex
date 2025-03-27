@@ -1,0 +1,56 @@
+.app {
+  display: flex;
+  justify-content: center;  /* Centralizado horizontalmente */
+  align-items: flex-start;  /* Alinhado ao topo */
+  padding: 20px;
+}
+
+.pokemon-search, .pokemon-list {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.pokemon-list {
+  max-width: 300px;  /* Limita o tamanho da lista para não ficar muito larga */
+}
+
+.pokemon-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pokemon-list li {
+  cursor: pointer;
+  padding: 8px;
+  transition: background-color 0.3s;
+}
+
+.pokemon-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.pokemon-card {
+  margin-top: 20px;  /* Espaço entre o formulário e o card */
+}
+
+input, button {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
