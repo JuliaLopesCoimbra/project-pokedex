@@ -16,7 +16,9 @@ Bem-vindo ao **Pokedex App**, uma aplicação web desenvolvida com React que per
 - **CSS**: Para estilização personalizada e responsiva.
 
 ## veja um pouco da aplicação
+Acesse a aplicação ao clicar no link abaixo e veja como ela funciona:
 
+[**Pokedex App**](https://project-pokedex-gilt.vercel.app)
 ![GIF](gif.gif)
 
 
